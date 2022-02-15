@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="stylesheet" href="./style.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+   <title>Login</title>
   </head>
   <body>
     <div class="container">
       <div class="card">
         <h1>LOGIN</h1>
         <div class="label-float">
-          <input type="text" id="usuario" placeholder="" />
+          <input type="text" id="usuario" placeholder="" required />
           <label for="usuario">Usuario</label>
         </div>
 
         <div class="label-float">
-          <input type="password" id="senha" placeholder="" />
+          <input type="password" id="senha" placeholder="" required />
           <label for="senha">Usuario</label>
+          <i class="fa fa-eye" aria-hidden="true"></i>
         </div>
 
         <div class="justify-center">
@@ -30,8 +32,10 @@
         </div>
 
         <p>Não tem uma conta?</p>
-        <a class="justify-center" href="">Cadastre-se</a>
+        <a class="justify-center" href="./cadastro.html">Cadastre-se</a>
       </div>
     </div>
+
+    <script src="./scriptLogin.js"></script>
   </body>
 </html>

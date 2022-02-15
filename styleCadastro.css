@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(./img/fundo.png);
+  background-image: url(./img/cadastro.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -25,6 +25,7 @@ body {
     padding: 50px;
     border-radius: 4%;
     box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
 
 }
 
@@ -67,10 +68,11 @@ h1 {
     left: 0;
     margin-top: 13px;
     transition: all .4s ease-out;
+    
 }
 
 .label-float input:focus + label,
-.label-float input:valid + labeL{
+.label-float input:valid + labeL {
     font-size: 13px;
     margin-top: 0;
     color: #2A569F;
@@ -87,7 +89,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     outline: none;
-    transition: all .3s ease-out;
+    transition: all .4s ease-out;
 }
 
 button:hover{
@@ -100,31 +102,6 @@ button:hover{
     justify-content: center;
 }
 
-hr {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 60%;
-}
-
-p{
-    color: #125370;
-    font-size: 14pt;
-    text-align: center;
-}
-
-a{
-
-    color: #409DBA;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .4s ease-out;
-
-}
-
-a:hover {
-    color: #125370;
-}
-
 .fa-eye{
     position: absolute;
     top: 13px;
@@ -132,3 +109,8 @@ a:hover {
     cursor: pointer;
     color: #125370;
 }
+
+
+
+
+

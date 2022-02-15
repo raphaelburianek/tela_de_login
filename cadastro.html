@@ -13,30 +13,33 @@
       <div class="card">
         <h1>Cadastrar</h1>
 
+        <div id="msgError"></div>
+        <div id="msgSuccess"></div>
+
          <div class="label-float">
           <input type="text" id="nome" placeholder="" />
-          <label for="nome">Nome</label>
+          <label id="labelNome" for="nome">Nome</label>
         </div>
 
         <div class="label-float">
           <input type="text" id="usuario" placeholder="" />
-          <label for="usuario">Usuario</label>
+          <label id="labelUsuario" for="usuario">Usuário</label>
         </div>
 
         <div class="label-float">
           <input type="password" id="senha" placeholder="" />
-          <label for="senha">Senha</label>
+          <label id="labelSenha" for="senha">Senha</label>
           <i class="fa fa-eye verSenha" aria-hidden="true"></i>
         </div>
 
          <div class="label-float">
           <input type="password" id="confirmSenha" placeholder="" />
-          <label for="confirmSenha">Confirma Senha</label>
+          <label id="labelConfirmSenha" for="confirmSenha">Confirmar Senha</label>
           <i class="fa fa-eye verConfirmSenha" aria-hidden="true"></i>
         </div>
 
         <div class="justify-center">
-          <button>Cadastrar</button>
+          <button onclick="cadastrar()">Cadastrar</button>
         </div>
 
         
